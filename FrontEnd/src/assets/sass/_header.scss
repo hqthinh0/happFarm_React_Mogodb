@@ -1,0 +1,19 @@
+#l-header {
+	background: #f4f3ef;
+	position: relative;
+}
+#l-header #sitelogo {
+	width: 25rem;
+}
+@media only screen and (max-width: 767px) {
+	#l-header #sitelogo {
+		width: 12rem;
+	}
+} /* endMedia */
+.l-header__wrapper {
+	padding: 2rem 0;
+	margin: 0 4vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

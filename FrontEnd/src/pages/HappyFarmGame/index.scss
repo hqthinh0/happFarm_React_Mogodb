@@ -1,0 +1,36 @@
+:root {
+    --color-background-game: #71cef8;
+}
+
+/* Trạng thái mặc định, ẩn phần tử */
+#gameIndex {
+  
+    height: 100vh;
+
+}
+
+/* Khi hiện ra, thêm lớp .show */
+
+
+.completed + #gameIndex .backgroundgame {
+
+    transition: opacity -0.3s ease, transform -0.3s ease;
+    background: url('../../assets/images/backgroundgame.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    animation: shawdow 5s ease-in forwards;
+}
+@keyframes shawdow {
+    0% {
+    opacity: .0;
+    }
+
+    40% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
